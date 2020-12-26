@@ -1,0 +1,17 @@
+.card-section-img {
+    position: relative;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+.card-section-tag {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    writing-mode: vertical-rl;
+    padding: 10px 10px;
+    background-color: theme-color("primary");
+    color: #fff;
+    letter-spacing: 5px;
+    opacity: 0.9;
+}

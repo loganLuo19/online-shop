@@ -127,16 +127,6 @@
               class="img-fluid"
               alt="Responsive image"
             />
-            <div class="card bg-light my-4">
-              <div class="card-header h4">購買說明</div>
-              <div class="card-body">
-                <p class="card-text text-left">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Provident, voluptates!
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

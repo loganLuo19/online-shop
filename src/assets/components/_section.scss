@@ -1,3 +1,8 @@
+.jumbotron-content{
+background-color: #607d8b91;
+color: theme-color("soft");
+}
+
 .section-img {
     min-height: 300px;
     @include media-breakpoint-up(md) {
@@ -14,4 +19,15 @@
     line-height: 2.5;
     letter-spacing: 5px;
     background-color: rgba(theme-color("soft"), 0.5);
+}
+.marquee-section{
+    overflow: hidden;
+    height: 25px;
+    @media (max-width: 568px) {
+    height: 45px;
+    }
+}
+.marquee-title{
+    box-shadow: 0 -5px 0 #00bcd4 inset;
+
 }

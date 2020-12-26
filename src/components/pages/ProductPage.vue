@@ -27,7 +27,7 @@
               class="list-group-item list-group-item-action list-group-item-info active"
               data-toggle="list"
             >
-              <i class="fas fa-meteor mr-2"></i>新品上市
+              <i class="fas fa-meteor mr-2"></i>全部商品
             </a>
             <a
               href="#pane-2"

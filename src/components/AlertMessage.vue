@@ -1,6 +1,7 @@
 <template>
 <div class="message-alert">
     <div class="alert alert-dismissible" :class="'alert-' + item.status" v-for="(item, i) in messages" :key="i">
+        <i class="far fa-lightbulb mr-1"></i> 
         {{ item.message }}
         <button type="button" class="close" @click="removeMessage(i)" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import $ from "jquery";
 export default {
     name: 'Navbar',
     data() {
@@ -29,6 +31,7 @@ export default {
         },
         removeMessage(num) {
             this.messages.splice(num, 1);
+
         },
         removeMessageWithTiming(timestamp) {
             const vm = this;

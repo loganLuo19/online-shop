@@ -2,12 +2,11 @@
 @import "./helpers/variables";
 @import "~bootstrap/scss/bootstrap";
 
-
 // customization
 // 區塊
 @import "./components/dashborad";
 @import "./components/character";
-@import "./components/todayFeature";
+@import "./components/cardSection";
 @import "./components/stepBar";
 @import "./components/section";
 
@@ -16,4 +15,4 @@
 @import "./components/btn-setting";
 @import "./components/background";
 @import "./components/utilities&else";
-
+@import "./components/animated";

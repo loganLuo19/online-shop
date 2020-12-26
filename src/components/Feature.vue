@@ -44,34 +44,34 @@ export default {
             "https://images.unsplash.com/photo-1595162244081-72420b24fe6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
           title: "波斯氣質花瓶",
           price: "2999",
-          switchLikeBtn: true
+          // switchLikeBtn: true
         },
         {
           imgUrl:
             "https://images.unsplash.com/photo-1557224230-e8b6f8fac15f?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
           title: "歐式微香蠟燭",
           price: "999",
-          switchLikeBtn: true
+          // switchLikeBtn: true
         },
         {
           imgUrl:
             "https://images.unsplash.com/photo-1587717415723-8c89fe42c76c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
           title: "霧黑梯形層架",
           price: "3999",
-          switchLikeBtn: true
+          // switchLikeBtn: true
         },
       ],
     };
   },
   methods:{
-      switchLike(item){
-          console.log(item)
-          if(item.switchLikeBtn){
-              item.switchLikeBtn = false;
-          }else{
-              item.switchLikeBtn = true;
-          }
-      }
+      // switchLike(item){
+      //     console.log(item)
+      //     if(item.switchLikeBtn){
+      //         item.switchLikeBtn = false;
+      //     }else{
+      //         item.switchLikeBtn = true;
+      //     }
+      // }
   }
 };
 </script>

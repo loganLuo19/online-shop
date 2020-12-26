@@ -21,7 +21,6 @@ import Dashborad from '@/components/Dashborad';
 import Products from '@/components/pages/Products';
 import Orders from '@/components/pages/Orders';
 import Coupon from '@/components/pages/Coupons';
-import CustomerOrders from '@/components/pages/CustomerOrders';
 
 
 
@@ -43,11 +42,6 @@ export default new Router({
       name: 'Index',
       component: Index,
       children: [
-        {
-          path: 'customer_orders',
-          name: 'CustomerOrders',
-          component: CustomerOrders,
-        },
         {
           path: 'customer_checkout/:orderId',
           name: 'CustomerCheckout',

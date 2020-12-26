@@ -6,6 +6,7 @@ import VueAxios from 'vue-axios';
 import Loading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
 import 'bootstrap';
+import 'animate.css';
 import 'popper.js';
 import { ValidationObserver, ValidationProvider, extend, localize, configure } from 'vee-validate';
 import TW from 'vee-validate/dist/locale/zh_TW.json';
