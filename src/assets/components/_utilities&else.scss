@@ -1,0 +1,14 @@
+.letter-spacing {
+    letter-spacing: 10px;
+}
+.box-shadow {
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 1s;
+    &:hover {
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+.custom-control-label::before {
+    border: 2px solid theme-color("info");
+    background-color: theme-color("soft");
+}

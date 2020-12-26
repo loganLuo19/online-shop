@@ -1,0 +1,17 @@
+.section-img {
+    min-height: 300px;
+    @include media-breakpoint-up(md) {
+        margin-top: -20px;
+    }
+}
+.section-title {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    background-color: rgba(theme-color("soft"), 0.5);
+}
+.section-content {
+    max-height: 460px;
+    line-height: 2.5;
+    letter-spacing: 5px;
+    background-color: rgba(theme-color("soft"), 0.5);
+}

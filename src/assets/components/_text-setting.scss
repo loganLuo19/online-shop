@@ -1,0 +1,19 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Microsoft JhengHei", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.text-title {
+    font-weight: bold;
+    color: $primary;
+    letter-spacing: 10px;
+}
+.text-vertical {
+    writing-mode: vertical-rl;
+    letter-spacing: 10px;
+}
+.text-md-vertical {
+    @include media-breakpoint-up(md) {
+        writing-mode: vertical-rl;
+        letter-spacing: 10px;
+    }
+}

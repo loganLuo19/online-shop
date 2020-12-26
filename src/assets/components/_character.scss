@@ -1,0 +1,46 @@
+.character-section {
+    margin-top: -90px;
+}
+.character-wrap {
+    position: relative;
+    height: 255px;
+    overflow: hidden;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    .character-cover {
+        background-color: rgba(theme-color("primary"), 0.6);
+        transition: background-color 1s;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .character-image {
+        position: absolute;
+        right: -10px;
+        left: -10px;
+        top: -10px;
+        bottom: -10px;
+        filter: blur(3px);
+        z-index: -2;
+        transition: filter 1s;
+    }
+    &.active,
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: theme-color("primary");
+        .character-cover {
+            background-color: rgba(theme-color("warning"), 0.6);
+        }
+        .character-image {
+            filter: blur(0);
+        }
+    }
+}

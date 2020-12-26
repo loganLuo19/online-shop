@@ -1,0 +1,13 @@
+.todayFeature-img {
+    position: relative;
+}
+.todayFeature-tag {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    writing-mode: vertical-rl;
+    padding: 15px 10px;
+    background-color: theme-color("primary");
+    color: #fff;
+    letter-spacing: 5px;
+}
